@@ -1,1 +1,18 @@
-# fiftyone-install
+# FiftyOne Install
+
+# Add FiftyOne as Git Sub Module 
+git submodule add https://github.com/voxel51/fiftyone.git
+
+# Create uv venv (Require: uv : http: ... )
+uv venv 
+source .venv/bin/activate 
+uv init
+uv add fiftyone 
+uv sync
+
+Run Jupyter Notebook using uv 
+uvx --with jupyter jupyter notebook --no-browser --port=5151
+
+On our Local Machine, run: 
+ssh -N -L 5151:localhost:5151 [<username>@]<hostname>
+Example: ssh -N -L 5151:localhost:5151 user@103.215.13.55

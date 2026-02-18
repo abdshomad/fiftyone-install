@@ -1,0 +1,3 @@
+[submodule "fiftyone"]
+	path = fiftyone
+	url = https://github.com/voxel51/fiftyone.git
