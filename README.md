@@ -3,6 +3,9 @@
 # Add FiftyOne as Git Sub Module 
 git submodule add https://github.com/voxel51/fiftyone.git
 
+# To update after cloning 
+git submodule update --init --recursive
+
 # Create uv venv (Require: uv : http: ... )
 uv venv 
 source .venv/bin/activate 

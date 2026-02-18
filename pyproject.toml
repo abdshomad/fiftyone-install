@@ -7,6 +7,7 @@ requires-python = ">=3.11"
 dependencies = [
     "fiftyone>=1.13.0",
     "ipython>=9.10.0",
+    "ipywidgets>=8.1.8",
     "notebook>=7.5.3",
     "tensorflow>=2.20.0",
     "tensorflow-datasets>=4.9.9",
