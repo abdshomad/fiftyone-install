@@ -1,5 +1,15 @@
 # FiftyOne Install
 
+# Using Conda 
+conda create -n fo python=3.11
+cd fiftyone
+bash install.sh 
+cd .. 
+python labs/01-load-dataset.py          # OK
+python labs/04-load-coco2017-dataset.py # OK
+python labs/05-quickstart.py            # OK 
+
+# Using uv (Still error)
 Setup for [FiftyOne](https://github.com/voxel51/fiftyone) with a uv-managed Python environment and optional Git submodule.
 
 ## Prerequisites

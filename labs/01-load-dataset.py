@@ -3,3 +3,6 @@ import fiftyone.zoo as foz
 
 dataset = foz.load_zoo_dataset("quickstart")
 session = fo.launch_app(dataset)
+
+# Add this line to keep the app running!
+session.wait()

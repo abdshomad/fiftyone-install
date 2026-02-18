@@ -5,18 +5,5 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
-    "fiftyone<1.13",
-    "ipython>=9.10.0",
-    "ipywidgets>=8.1.8",
-    "notebook>=7.5.3",
-    "strawberry-graphql<0.235",
-    "tensorflow>=2.20.0",
-    "tensorflow-datasets>=4.9.9",
-    "torch>=2.10.0",
-    "torchvision>=0.25.0",
-]
-
-[dependency-groups]
-dev = [
-    "ipykernel>=7.2.0",
+    "fiftyone==1.4.1",
 ]
