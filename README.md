@@ -11,8 +11,11 @@ uv add fiftyone
 uv sync
 
 Run Jupyter Notebook using uv 
-uvx --with jupyter jupyter notebook --no-browser --port=5151
+DO NOT USE: uvx --with jupyter jupyter notebook --no-browser --port=5151
+jupyter notebook --no-browser --port=5151
 
 On our Local Machine, run: 
 ssh -N -L 5151:localhost:5151 [<username>@]<hostname>
-Example: ssh -N -L 5151:localhost:5151 user@103.215.13.55
+Example: ssh -N -L 5151:localhost:5151 nvidia-user@103.215.13.55 
+Access to http://localhost:5151 
+Copy paste the token 
