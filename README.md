@@ -29,7 +29,7 @@ uv python pin 3.11
 ### 2. Create and use the virtual environment
 
 ```bash
-uv venv
+uv venv --seed
 source .venv/bin/activate   # On Windows: .venv\Scripts\activate
 uv sync
 ```
